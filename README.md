@@ -21,9 +21,14 @@
 * библиотека tk-inter
 Код для сборки:
 
-< python -m nuitka --standalone --enable-plugin=tk-inter --windows-icon-from-ico=icon.ico --windows-disable-console --mingw64 main.py >
+``` python -m nuitka --standalone --enable-plugin=tk-inter --windows-icon-from-ico=icon.ico --windows-disable-console --mingw64 main.py ```
 
 После сборки в папку PIL нужно поместить соответсвенно библиотеку PIL(Я скопировал всю папку PIL из директории Python)
+
+
+
+
+
 
 # GF ZPSKTR by AnriTool{EN}
 Launcher of Greenfoot games saved in jar format.
@@ -48,6 +53,6 @@ Is required:
 * tk-inter library
 Code for the build:
 
-< python -m nuitka --standalone --enable-plugin=tk-inter --windows-icon-from-ico=icon.ico --windows-disable-console --mingw64 main.py >
+``` python -m nuitka --standalone --enable-plugin=tk-inter --windows-icon-from-ico=icon.ico --windows-disable-console --mingw64 main.py ```
 
 After the build, the PIL library should be placed in the BIN folder, respectively.(I copied the entire PIL folder from the Python directory)
