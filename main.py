@@ -19,7 +19,7 @@ def previous():
         current = current - 1
         print(current)
 
-    img = files[0].partition(".jar")[current] + ".png"
+    img = files[current].partition(".jar")[0] + ".png"
     if os.path.exists("IMAGES/" + img):
         image = Image.open("IMAGES/" + img)
         pass
@@ -51,7 +51,7 @@ def next():
         current = current + 1
         print(current)
 
-    img = files[0].partition(".jar")[current] + ".png"
+    img = files[current].partition(".jar")[0] + ".png"
     if os.path.exists("IMAGES/" + img):
         image = Image.open("IMAGES/" + img)
         pass
